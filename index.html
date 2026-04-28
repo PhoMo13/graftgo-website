@@ -467,10 +467,10 @@
   <div class="cta-inner">
     <h2>Ready to <span>GraftGO?</span></h2>
     <p>Join the waitlist now. Be first to know when we launch in Greater Manchester — and get early access before anyone else.</p>
-    <div class="cta-form">
-      <input type="email" class="cta-input" placeholder="Your email address" id="waitlist-email" />
-      <button class="btn-primary" onclick="submitWaitlist()">Join Now</button>
-    </div>
+    <form action="https://buttondown.com/api/emails/embed-subscribe/PhoMo" method="post" class="cta-form">
+      <input type="email" name="email" class="cta-input" placeholder="Your email address" required />
+      <button type="submit" class="btn-primary" style="white-space:nowrap;">Join Now</button>
+    </form>
     <p class="cta-note">No spam. Ever. Unsubscribe anytime.</p>
   </div>
 </section>
